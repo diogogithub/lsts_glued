@@ -1,0 +1,2 @@
+# Core.
+arm_freq=1000

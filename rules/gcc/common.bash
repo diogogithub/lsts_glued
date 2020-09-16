@@ -1,16 +1,16 @@
 version=\
 (
-    '4.9.3'
+    '10.2.0'
 )
 
 url=\
 (
-    "http://mirrors.kernel.org/gnu/gcc/gcc-$version/gcc-$version.tar.bz2"
+    "http://mirrors.kernel.org/gnu/gcc/gcc-$version/gcc-$version.tar.xz"
 )
 
 md5=\
 (
-    '6f831b4d251872736e8e9cc09746f327'
+    'e9fd9b1789155ad09bcf3ae747596b50'
 )
 
 build_dir=$pkg_var

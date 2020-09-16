@@ -1,11 +1,15 @@
 version=\
 (
-    '2017-02-02'
+    '1.20200212',
+    '2019.07',
+    '3.98ubuntu12'
 )
 
 url=\
 (
-    "http://lsts.pt/glued/rpi-boot-firmware-$version.zip"
+    "http://archive.ubuntu.com/ubuntu/pool/multiverse/l/linux-firmware-raspi2/linux-firmware-raspi2_$version.orig.tar.gz",
+    "http://archive.ubuntu.com/ubuntu/pool/main/u/u-boot/u-boot_$version+dfsg.orig.tar.xz",
+    "http://archive.ubuntu.com/ubuntu/pool/main/f/flash-kernel/flash-kernel_$version.tar.xz"
 )
 
 maintainer=\
@@ -16,7 +20,9 @@ maintainer=\
 
 md5=\
 (
-    'eb42664fce4d73f167064e697dfacb76'
+    '5b35887b1026fafe8174f473679d175a',
+    '5b35887b1026fafe8174f473679d175a',
+    '5b35887b1026fafe8174f473679d175a'
 )
 
 target_install()

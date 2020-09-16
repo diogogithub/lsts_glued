@@ -1,6 +1,6 @@
 version=\
 (
-    '1.0.2e'
+    '1.1.1f'
 )
 
 url=\
@@ -10,7 +10,7 @@ url=\
 
 md5=\
 (
-    '5262bfa25b60ed9de9f28d5d52d77fc5'
+    '3f486f2f4435ef14b81814dbbc7b48bb'
 )
 
 requires=\
@@ -23,6 +23,7 @@ configure()
     ./Configure linux-generic32 --cross-compile-prefix="$cfg_target_canonical-" \
                 --prefix="$cfg_dir_toolchain_sysroot/usr" \
                 --openssldir="$cfg_dir_toolchain_sysroot/usr" \
+		--libdir=lib \
                 shared
 }
 

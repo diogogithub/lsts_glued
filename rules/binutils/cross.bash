@@ -1,16 +1,16 @@
 version=\
 (
-    '2.25.1'
+    '2.35'
 )
 
 url=\
 (
-    "http://mirrors.kernel.org/gnu/binutils/binutils-$version.tar.bz2"
+    "http://mirrors.kernel.org/gnu/binutils/binutils-$version.tar.xz"
 )
 
 md5=\
 (
-    'ac493a78de4fee895961d025b7905be4'
+    'fc8d55e2f6096de8ff8171173b6f5087'
 )
 
 maintainer=\

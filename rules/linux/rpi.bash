@@ -2,19 +2,19 @@
 
 version=\
 (
-    '4.4_2017-01-27'
+    '5.4'
 )
 
 url=\
 (
-    "http://lsts.pt/glued/rpi-linux-$version.zip"
+    "http://archive.ubuntu.com/ubuntu/pool/universe/l/linux-raspi2/linux-raspi2_$version.0.orig.tar.gz"
 )
 
 md5=\
 (
-    'f31d48a9d2c93509b35e750be489b44c'
+    '0707e4b2cbaf1428055d6615be04559e'
 )
 
-build_dir="rpi-linux-rpi-linux-$version"
+build_dir="linux-$version"
 
 find_patches
